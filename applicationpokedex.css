@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin:0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+body{
+  font-family: arial;
+	width: 95%;
+  max-width: 1440px;
+  margin: auto;
+}
+ul{
+  list-style: none;
+}
+
+input[type=checkbox]
+{
+display: none
+}
+nav{
+  background-color: rgba(16, 16, 16, 0.5);
+  width: 350px;
+  height: 100%;
+	position: absolute;
+	left: -350px
+}
+}
+ul{
+  position: absolute;
+  top:70px;
+	width: 100%
+}
+input[type="checkbox"]:checked ~ nav{
+  transform: translateX(350px);
+}
+a{
+  display:block;
+  padding: 20px 5px;
+  color: white;
+}
+a:hover{
+  background-color: rgb(176, 224, 230);
+  color: black
+
+}
+label{
+	color: red;
+	padding: 15px;
+  position: absolute;
+	z-index: 1;
+
+}
+.logo{
+	text-align: center;
+	margin-top: 24px;
+}
+.pokedex{
+	margin-top: 60px;
+	text-align: center;
+	font-size: 40px
+}
+.btn{
+  width: 25px;
+  height: 25px;
+  padding:5px 5px;
+  cursor: pointer;
+
+}
+	#texto{
+	  width: 350px;
+	  height: 40px;
+	  font-family: arial;
+	  font-size: 20px;
+	  border-radius: 5px;
+
+	}
+	.pesquisa{
+  widht: 400px;
+  height:40px;
+  margin:60px auto;
+	text-align: center;
+}
+.linha1{
+	text-align: center;
+	margin-top: 24px;
+}
+.linha2{
+	margin-top: 20px;
+}
+.linha3{
+	margin-top: 20px;
+}
+.linha4{
+	margin-top: 20px;
+}
+.linha5{
+	margin-top: 20px;
+}
+.linha6{
+	margin-top: 20px;
+}
+.linha7{
+	margin-top: 20px;
+}
+.linha8{
+	margin-top: 20px;
+}
+.btn{
+  font-family: arial;
+  font-size:14px;
+  font-weight:700;
+  text-transform: uppercase;
+  border:none;
+  padding:10px;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;
+}
+.btn-green{
+  background:#6CAF00;
+  color:#000;
+  box-shadow:0 5px 0 #006000;
+}
+.btn-green:hover{
+  background:#006000;
+  box-shadow:0 5px 0 #003f00;
+}
+.btn-green:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
+}
